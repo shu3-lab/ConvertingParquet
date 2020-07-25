@@ -1,6 +1,8 @@
 from convertion import convert_parquet as cp
-from S3file import S3_control as s3c
+from S3file import S3_control
 import sys
+
+s3c = S3_control()
 
 def main():
     filename = sys.argv[1]

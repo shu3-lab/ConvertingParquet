@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+.vscode
+/csv/*
+/parquet/*
+UNKNOWN.egg-info
+make_parquet
+.DS_Store
+

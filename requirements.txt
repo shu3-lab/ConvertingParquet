@@ -9,5 +9,5 @@ python-dateutil==2.8.1
 pytz==2020.1
 s3transfer==0.3.3
 six==1.15.0
--e git+https://github.com/shu3-lab/ConvertingParquet.git@481ff5799cb2869bbcb78f4b80e1b4f7fcf7f845#egg=UNKNOWN
+-e git+https://github.com/shu3-lab/ConvertingParquet.git@6290bfce99b1b67696ebdb3f28b3dd28a660cfb3#egg=UNKNOWN
 urllib3==1.25.10

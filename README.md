@@ -1,5 +1,7 @@
 # ConvertingParquet
 
+![Python package](https://github.com/shu3-lab/ConvertingParquet/workflows/Python%20package/badge.svg)
+
 This is the Python script which converts csv files to parquet files and updload created parquet to S3.
 
 **NOTE:**  It's under developing!

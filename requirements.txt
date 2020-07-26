@@ -1,13 +1,21 @@
+attrs==19.3.0
 boto3==1.14.28
 botocore==1.17.28
 docutils==0.15.2
 jmespath==0.10.0
+more-itertools==8.4.0
 numpy==1.19.1
+packaging==20.4
 pandas==1.0.5
+pluggy==0.13.1
+py==1.9.0
 pyarrow==0.17.1
+pyparsing==2.4.7
+pytest==5.4.3
 python-dateutil==2.8.1
 pytz==2020.1
 s3transfer==0.3.3
 six==1.15.0
--e git+https://github.com/shu3-lab/ConvertingParquet.git@6290bfce99b1b67696ebdb3f28b3dd28a660cfb3#egg=UNKNOWN
+-e git+https://github.com/shu3-lab/ConvertingParquet.git@0475366e232bebcd9af4c3252c131aeb221eb2bf#egg=UNKNOWN
 urllib3==1.25.10
+wcwidth==0.2.5

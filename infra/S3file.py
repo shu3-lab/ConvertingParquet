@@ -1,4 +1,4 @@
-from abstractS3 import abstract_S3
+from infra.abstractS3 import abstract_S3
 import boto3
 import pandas as pd
 import datetime

@@ -2,7 +2,7 @@ from logic.convertion import convert_parquet as cp
 import os
 import pytest
 
-path = os.path.isdir('./parquet')
+path = os.path.isfile('./csv/TEST.csv')
 
 @pytest.mark.skipif(path==False, reason='localonly')
 def test_1():

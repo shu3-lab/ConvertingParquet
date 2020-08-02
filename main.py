@@ -9,7 +9,7 @@ def main():
     bucket = sys.argv[2]
 
     #At fist, download csv file from s3
-    #s3c.from_S3(bucket,filename)
+    s3c.from_S3(bucket,filename)
     #convert csv to parquet
     cp.convert_to_parquet(filename)
     #Upload created parquet to s3 

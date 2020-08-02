@@ -18,7 +18,7 @@ def test_2(S3):
     bucket = S3.make_bucket(S3.s3, expect)
     assert expect == bucket.name
 
-@pytest.mark.skipif(path==False, reason='A directory is not made.')
+@pytest.mark.skipif(path==False, reason='localonly')
 def test_3(S3):
     bucket_name = 'test-parquet-convertion'
     file_name = 'TEST'
@@ -27,7 +27,7 @@ def test_3(S3):
     result = os.path.isfile(expect_path)
     assert True == result
 
-@pytest.mark.skipif(path==False, reason='A directory is not made.')
+@pytest.mark.skipif(path==False, reason='localonly')
 def test_4(S3):
     bucket_name = 'test-parquet-convertion'
     file_name = 'TEST'

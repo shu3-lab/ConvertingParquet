@@ -9,7 +9,7 @@ def main():
         filename = sys.argv[1]
         bucket = sys.argv[2]
     except IndexError as e:
-        raise ArgumentError('Arguments are not entried.Two arguments, a file name and a bucket name of your S3, are required.')
+        raise IndexError('Arguments are not entried.Two arguments, a file name and a bucket name of your S3, are required.')
 
     #At fist, download csv file from s3
     s3c.from_S3(bucket,filename)

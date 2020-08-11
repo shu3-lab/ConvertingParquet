@@ -4,6 +4,8 @@
 
 This is the Python script which converts csv files to parquet files and updload created parquet to S3.
 
+<img width="700" alt="スクリーンショット 2020-08-11 15 09 04" src="https://user-images.githubusercontent.com/56756975/89863212-9fe78c80-dbe4-11ea-8217-8690669656af.png">
+
 ## How to use it?
 
 After `git clone`, do the steps below.

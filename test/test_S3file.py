@@ -1,16 +1,16 @@
 import pytest
 import os
-from infra.S3file import S3_control
+from infra.S3file import S3Control
 
 path = os.path.isdir('./parquet')
 
 @pytest.fixture
 def S3():
-    s3c = S3_control()
+    s3c = S3Control()
     return s3c
 
 def test_1():
-    s3c = S3_control()
+    s3c = S3Control()
     assert s3c is not None
 
 def test_2(S3):

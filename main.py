@@ -1,8 +1,8 @@
-from logic.convertion import convert_parquet as cp
-from infra.S3file import S3_control
+from logic.convertion import ConvertParquet as cp
+from infra.S3file import S3Control
 import sys
 
-s3c = S3_control()
+s3c = S3Control()
 
 def main():
     try:        

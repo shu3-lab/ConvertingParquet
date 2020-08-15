@@ -3,7 +3,7 @@ import pyarrow as pa
 import pyarrow.parquet as pq
 import csv
 
-class ConvertParquet:
+class convert_parquet:
     @staticmethod
     def convert_to_parquet(filename):
         csv_path = './csv/'+filename+'.csv'

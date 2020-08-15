@@ -1,4 +1,4 @@
-from logic.convertion import ConvertParquet as cp
+from logic.convertion import convert_parquet as cp
 import os
 import pytest
 

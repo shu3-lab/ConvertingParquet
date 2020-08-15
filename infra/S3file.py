@@ -1,9 +1,9 @@
-from infra.abstractS3 import AbstractS3
+from infra.abstractS3 import abstract_S3
 import boto3
 import pandas as pd
 import datetime
 
-class S3Control(AbstractS3):
+class S3_control(abstract_S3):
     def __init__(self):
         super().__init__()
         s3 = boto3.resource('s3')

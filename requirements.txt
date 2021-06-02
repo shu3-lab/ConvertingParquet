@@ -19,5 +19,5 @@ s3fs==0.4.2
 s3transfer==0.3.3
 six==1.15.0
 -e git+https://github.com/shu3-lab/ConvertingParquet.git@f2c26db0b570493287b9602cef8257485f7b1f79#egg=UNKNOWN
-urllib3==1.25.10
+urllib3==1.26.5
 wcwidth==0.2.5

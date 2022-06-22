@@ -5,7 +5,7 @@ docutils==0.15.2
 fsspec==0.8.0
 jmespath==0.10.0
 more-itertools==8.4.0
-numpy==1.19.1
+numpy==1.22.0
 packaging==20.4
 pandas==1.0.5
 pluggy==0.13.1
